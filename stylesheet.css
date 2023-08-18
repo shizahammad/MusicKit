@@ -1,0 +1,34 @@
+body,html{
+    margin:0;
+    padding: 0;
+
+}
+body{
+    background-image: url("./moon.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px 800px;
+}
+.keys{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    margin-top: 50px;
+}
+.key{
+    color:white;
+    border: white solid 1px;
+    border-radius: 10px;
+    height:80px;
+    width:80px;
+    text-align: center;
+    transition: all 0.07s;
+}
+span{
+color: gold;
+font-size:20px;
+}
+.playing{
+    transform: scale(1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
